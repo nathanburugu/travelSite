@@ -1,0 +1,245 @@
+
+body {
+    background: url(../img/craig-stevenson-Lrfeth2WaOo-unsplash.jpg) ;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* nav bar section styling */
+nav {
+    background:linear-gradient(to right, #2d6464, #5f8ae9) ;
+
+}
+#nav-a {
+    text-decoration: none;
+    color: rgba(34, 54, 69, 0.7);
+    font-weight: 500;
+}
+#nav-a:hover {
+    color: linear-gradient(to right, #58bec5, #3bdfd1);
+}
+#nav-ul {
+    list-style: none;
+}.navbar {
+    background:linear-gradient(to right, #2d6464, #5f8ae9) ;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand {
+    font-family:cursive;
+    font-size: 2.5;
+    color: darkcyan;
+}
+.navbar-toggler {
+    background: darkolivegreen;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1,2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-top: 4px solid  #1e82d4cc;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    border-top: 4px solid linear-gradient(to right, #2d6464, #5f8ae9);
+    color: linear-gradient(to right, #2d6464, #5f8ae9);
+}
+.navbar-nav button {
+    padding: 1.2rem 0;
+}
+.navbar-nav .btn {
+    background:linear-gradient(to right, #2d6464, #5f8ae9) ;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+.navbar-nav .btn:hover {
+    background: #111b4d;
+}
+/* navbar section styling ends here */
+footer {
+    background:linear-gradient(to right, #2d6464, #5f8ae9) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* form page styles */
+.signup-top {
+    background: #111b4d;
+    background:linear-gradient(to right, #2d64646e, #5f8be98e) ;
+    height: 20px;
+    margin-top: 0.5em;
+    border-top-left-radius: 1em ;
+    border-top-right-radius: 1em;
+}
+.register {
+    background:linear-gradient(to right, #2d646473, #5f8be98f);
+    height: 550px;
+    border-top-left-radius: 1em ;
+    border-top-right-radius: 1em;
+}
+.signup-left{
+    background: url(../img/harshil-gudka-EtH1GE9qaDg-unsplash.jpg);
+    background-size:cover;
+    height:80%;
+    opacity: 0.9;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    
+}
+.form-check {
+    margin-top: 2em;
+}
+#btn-register {
+    width: 20em;
+    margin: 1em;
+    margin-left: 11em;
+    background:linear-gradient(to right, #174141, #2d3a55) ;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+    linear-gradient(60deg,#2d6464, #5f97b9)
+    ;
+}
+#btn-register:hover {
+    background:linear-gradient(to left,  #2d6464, #5f8be9) ;
+
+}
+/* form page ends here */
+/* landing Page starts here */
+.landing {
+    height: 700px;
+    background:linear-gradient(to left,  #2d64648e, #5f8be9c2) ;
+}
+.right-landing {
+    height: 100%;
+    background:linear-gradient(to left,  #2d64647a, #5f8be979) ;
+}
+.left-landing {
+    height: 80%;
+    background: url(../img/jake-nackos-GxYYBY_9Ggk-unsplash.jpg);
+    background-size: cover;
+    border-radius: 35% 63% 84% 46% / 31% 56% 35% 28%;
+}
+.h2-landing {
+    margin-top: 15px;
+    margin-left: 60px;
+    color: rgb(100, 96, 96);
+}
+#btn-landingLeft {
+    margin-top: 290px;
+    margin-left: 60px;
+    background-color: rgb(55, 143, 158);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* border-radius: 35%; */
+    height: 50px;
+    width: 180px;
+}
+#btn-landingRight {
+    position: relative;
+    height: 45px ;
+    padding:  0 2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgb(55, 143, 158);
+    color: #ffffff;
+    transition: all 0.3s;
+
+    /* background-color: rgb(55, 143, 158);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 45px;
+    width: 130px; */
+}
+#btn-landingRight:hover {
+    background: transparent;
+    letter-spacing: 2px;
+    border: none;
+}
+#btn-landingRight::before { top: 0;}
+#btn-landingRight::after { bottom: 0;}
+#btn-landingRight:hover::before,
+#btn-landingRight:hover::after {
+    transform: scaleX(1);
+}
+#btn-landingRight::before,
+#btn-landingRight::after {
+    content:  "";
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    width: 100%;
+    height: 0.5px;
+    background: wheat;
+    transition: all 0.3s;
+}
+
+.text-price-landing{
+    margin-top: 15px;
+}
+.text-price-landing, .price-right-landing{
+    margin-left: 80px;
+}
+.price-right-hr {
+    margin-left: 80px;
+    margin-right: 280px;
+}
+.card-landing {
+    height: 250px;
+}
+.picha-kuland{
+    background:linear-gradient(to left,  #2d6464, #5f8be9) ;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: 
+    linear-gradient(60deg,#2d6464, #5f97b9);
+}
+.p-l-a{
+    height: 80px;
+}
+.p-l-b {
+    height: 120px;
+}
+.services-text {
+    margin-top: 30px;
+}
+.services-card{
+    height: 200px;
+}
+.frequently {
+    height: 350px;
+}
